@@ -72,6 +72,7 @@
             margin-bottom: 30px;
             font-weight:700;
         }
+        
         h2{
             font-size: 1.5em;
             margin-top: 15px;
@@ -81,40 +82,87 @@
             opacity: .8;
             font-weight: 400;
         }
+        
         #hero-section {
-            background-color: $colour-light-gray;
-            .showcase{
+            position: relative;
+            height: 100vh; 
+            overflow: hidden;
+        
+            .background-image {
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50%;
+                height: 100vh;
+                @media  (max-width:800px){
+                    width: 100%;
+                }
+                z-index: -1;
+                background-position:  right; // Adjust background position
+                background-size: contain;
 
-                position: relative;
-                video{
+                img {
                     width: 100%;
                     height: 100%;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
                     object-fit: cover;
                 }
-                h1{
+            }
+        
+            .content {
+                width: 50%;
+                @media  (max-width:800px){
+                    width: 100%;
+                }
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                height: 100%;
+                padding: 20px;
+        
+                h1 {
                     font-size: 4em;
-                    mix-blend-mode: screen;
-                    background-color: $colour-white;
-                    color: #000;
+                }
+        
+                p {
+                    font-size: 1.5em;
+                }
+                ul{
+                    
+                    list-style:none;
+                    text-decoration: none;
+                    li{
+                        margin-left: 0;
+                        i{
+                            color: $colour-yellow;
+                            margin-right: 10px;
+                        }
+                        color:$colour-dark-gray;
+                        font-weight: 600;
+                    }
+                }
+                a {
+                    color: inherit;
+                    font-size: 1em;
+                    background-color: $colour-yellow; // Adjust color as needed
+                    padding: 12px 22px;
+                    border-radius: 48px;
+                    text-decoration: none;
+                    transition: background-color 0.3s ease;
+        
+                    &:hover {
+                        background-color: #ffcc00; // Change the background color on hover
+                    }
                 }
             }
-            
-            p{
-                font-size: 1.5em;
-            }
-            a {
-                color: #000;
-                font-size: .8em;
-                background-color: $colour-yellow;
-                display: inline-flex; /* Ensure the anchor behaves like a block */
-                align-items: center; /* Align content vertically */
-                padding: 12px 22px 12px 32px;
-                border-radius: 48px;
-            }
-          }
+        }
+        
+        
+        
+        
           
           
         .Testimony-section{
