@@ -23,7 +23,23 @@
 <body >
 
 <?php include("../components/nav.php") ?>
-<img class="home-page-img" src="../Images/Build Superhero-like Strength with Battle Ropes - Onnit Academy.jpg" alt="home page">
+
+<section id="hero-section">
+    <div class="background-image">
+        <img src="../Images/hero section image.webp" alt="Hero Section Image">
+    </div>
+    <div class="content">
+        <h1>ClubXtreme</h1>
+        <p>La nouvelle solution des gestion des clubs sportifs</p>
+        <ul>
+          <li><i class="bi bi-check"></i>Surveiller et analyser toutes les données d'entraînement.</li>
+          <li><i class="bi bi-check"></i>Gérer et comprendre vos membres a l'aide de notre solution.</li>
+          <li><i class="bi bi-check"></i>Enregistrer et surveiller toute transaction grace a notre systeme de gestion des finance.</li>
+        </ul>
+        <a href="#"><strong>Get now <i class="bi bi-arrow-right-short"></i> </a>
+    </div>
+</section>
+
 
 <section class="container py-5">
   <div class="row">
@@ -55,12 +71,12 @@
   </div>
 </section>
 <section class="Testimony-section">
-
 </section>
 
 
 <script src="../node_modules/bootstrap/js/index.esm.js"></script>
 <script src="../node_modules/bootstrap/js/index.umd.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="../javascript/navbarTransparency.js"></script>
 </body>
 </html>
