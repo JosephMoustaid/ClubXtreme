@@ -66,7 +66,7 @@
                     <input type="checkbox" class="form-check-input" id="terms">
                     <label for="terms">J'accepte <a href="#" class="text-info">les termes et les conditions d'utulisations.</a></label>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-lg mb-3 fw-bold fs-6 ">Se connecter</button>
+                <button type="submit" class="btn btn-secondary btn-lg mb-3 fw-bold fs-6 ">Créer compte</button>
             </div>
             <a href="login.php" class="btn-lg btn-transparent border-2 border  btn w-100 fs-6 fw-bold ">Vous avez déjà un compte?</a>
         </form>
