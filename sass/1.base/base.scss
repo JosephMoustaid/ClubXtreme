@@ -1,0 +1,123 @@
+
+
+
+    
+    body{
+        scroll-behavior: smooth;
+        //font-family: "Montserrat", sans-serif;
+        font-family: Montreux Classic,sans-serif;
+        line-height: 20px;
+        font-weight: 500;
+        section{
+            //max-width: 1300px;
+            margin: auto;
+            padding: 20px;
+        }
+        a , a:hover{
+            text-decoration: none;
+        }
+        font-style: normal;   
+        margin: auto;
+        #nav {
+            position: relative; /* Initially set to relative positioning */
+            height: auto; /* Initially takes its natural height */
+            z-index: 1000; 
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, height 0.3s ease; /* Add height transition */
+            width: 100%;
+            background-color: rgba(255, 255, 255, 1); /* Solid background color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box-shadow with opacity */
+          }
+          
+          .navbar-transparent {
+            opacity: 0; /* Initially set to fully transparent */
+            height: 100%; /* Adjust the height to cover the full viewport */
+            position: fixed; /* Set to fixed positioning when scrolling */
+            top: 0;
+            left: 0;
+            backdrop-filter: blur(5px); /* Add a slight blur effect */
+            transition: opacity 0.3s ease, backdrop-filter 0.3s ease; /* Smooth transition */
+          }
+          
+        nav{
+            
+            .nav-item{
+                font-size: 1.1em;
+                line-height: 1.3;
+            }
+            #signin-btn {
+                border-radius: 0px;
+                border: 2px solid $colour-dark-gray !important;
+                background-color: transparent !important;
+                width: auto;
+                text-align: center;
+            }
+            .navbar-menu-btn{
+                :hover , :active{
+                    border: 0;
+                }
+            }
+           
+    
+        }
+        .home-page-img{
+            max-width: auto;
+            object-fit: cover;
+            width: 100%;
+            
+            min-height: 200px;
+            max-height: 450px;
+        }
+        h1{
+            font-size: 2em;
+            margin-bottom: 30px;
+            font-weight:700;
+        }
+        h2{
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+        p{
+            font-size: .8em;
+            opacity: .8;
+            font-weight: 400;
+        }
+        #hero-section {
+            background-color: $colour-light-gray;
+            .showcase{
+
+                position: relative;
+                video{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    object-fit: cover;
+                }
+                h1{
+                    font-size: 4em;
+                    mix-blend-mode: screen;
+                    background-color: $colour-white;
+                    color: #000;
+                }
+            }
+            
+            p{
+                font-size: 1.5em;
+            }
+            a {
+                color: #000;
+                font-size: .8em;
+                background-color: $colour-yellow;
+                display: inline-flex; /* Ensure the anchor behaves like a block */
+                align-items: center; /* Align content vertically */
+                padding: 12px 22px 12px 32px;
+                border-radius: 48px;
+            }
+          }
+          
+          
+        .Testimony-section{
+            background-color: $colour-light-gray;
+        }
+    }
