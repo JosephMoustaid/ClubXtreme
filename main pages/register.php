@@ -23,7 +23,7 @@
 <body >
 
 <?php include("../components/nav.php") ?>
-<div class="container">
+<div class="container ">
     <div class="row p-3 d-flex flex-column   align-items-center mt-5 ">
         <div class="col-lg-6 col-md-10 col-12 text-center m-auto ">
             <img src="../images/logo.png"  class="m-auto w-50 " alt="logo">
@@ -72,7 +72,7 @@
         </form>
     </div>
 </div>
-</body>
+<?php include_once("../components/footer.php") ?>
 <script src="../javascript/heroImageAlternator.js"></script>
 <script src="../javascript/subscriptionPlans.js"></script>
 <script src="../node_modules/bootstrap/js/index.esm.js"></script>

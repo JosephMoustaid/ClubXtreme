@@ -42,17 +42,15 @@
                             Blog
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">About us</a></li>
-                            <li><a class="dropdown-item" href="#">Contact us</a></li>
+                            <li><a class="dropdown-item" href="about.php">About us</a></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact us</a></li>
                             <li><a class="dropdown-item" href="#">What we Offer</a></li>
                         </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item ms-2 l ">
-                        <a class="nav-link active" id="signin-btn" aria-current="page" href="../main pages/login.php">Login</a>
-                    </li>
-                </ul>
+                <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <a class="btn fw-semibold  rounded   " id="signin-btn" aria-current="page" href="../main pages/login.php">Login</a>
+                </div>
             </div>
         </div>
   </div>
