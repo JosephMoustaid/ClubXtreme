@@ -1,4 +1,4 @@
-<nav class="navbar lora navbar-expand-lg "  data-bs-theme="light"> <!-- Added text-white class here -->
+<nav class="navbar lora navbar-expand-lg " id="nav"  data-bs-theme="light"> <!-- Added text-white class here -->
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="../images/logo.png" width="120"  alt="logo"></a>
         <button class="navbar-menu-btn navbar-toggler" style="border: 0;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@
                         <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
                     </li>
                     <li class="nav-item ms-3">
-                        <a class="nav-link" href="#Evenements">Evenements</a>
+                        <a class="nav-link" href="#Evenements">Events</a>
                     </li>
                     <li class="nav-item dropdown ms-3">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,17 +42,15 @@
                             Blog
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">About us</a></li>
-                            <li><a class="dropdown-item" href="#">Contact us</a></li>
+                            <li><a class="dropdown-item" href="about.php">About us</a></li>
+                            <li><a class="dropdown-item" href="contact.php">Contact us</a></li>
                             <li><a class="dropdown-item" href="#">What we Offer</a></li>
                         </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item ms-2 l">
-                        <a class="nav-link active sign-in-btn" aria-current="page" href="./index.php">Login</a>
-                    </li>
-                </ul>
+                <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <a class="btn fw-semibold  rounded   " id="signin-btn" aria-current="page" href="../main pages/login.php">Login</a>
+                </div>
             </div>
         </div>
   </div>
