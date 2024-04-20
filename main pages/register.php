@@ -23,13 +23,8 @@
 <body >
 
 <?php include("../components/nav.php") ?>
-<<<<<<< HEAD
-<div class="container ">
-    <div class="row p-3 d-flex flex-column   align-items-center mt-5 ">
-=======
 <div class="container">
     <div class="row p-1 d-flex flex-column   align-items-center">
->>>>>>> 5a837690bf1062f285334dbdecebb5ea02459c66
         <div class="col-lg-6 col-md-10 col-12 text-center m-auto ">
             <img src="../images/logo.png"  class="m-auto w-50 " alt="logo">
         </div>
@@ -68,8 +63,8 @@
             </div>
             <div class=" form-check d-flex justify-content-between     align-items-center ">
                 <div class="mb-3 col-7">
-                    <input type="checkbox" class="form-checkbox-input"  id="terms">
-                    <label for="terms">J'accepte <a href="#" class="text-info">les termes et les conditions d'utulisations.</a></label>
+                    <input type="checkbox" class="form-checkbox-input  "  id="terms">
+                    <label for="terms">J'accepte <a href="#" class="text-info ">les termes et les conditions d'utulisations.</a></label>
                 </div>
                 <button type="submit" class="btn btn-secondary btn-lg mb-3 fw-bold fs-6 ">Créer compte</button>
             </div>
