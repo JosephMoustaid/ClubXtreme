@@ -25,7 +25,7 @@
 <?php include("../components/nav.php") ?>
 
 <div class="container">
-    <div class="row p-3 d-flex flex-column   align-items-center mt-5 ">
+    <div class="row p-1 d-flex flex-column   align-items-center ">
         <div class="col-lg-6 col-md-10 col-12 text-center m-auto ">
             <img src="../images/logo.png"  class="m-auto w-50 " alt="logo">
         </div>

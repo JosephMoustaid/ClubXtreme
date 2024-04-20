@@ -24,19 +24,19 @@
 
 <?php include("../components/nav.php") ?>
 <div class="container">
-    <div class="row p-3 d-flex flex-column   align-items-center mt-5 ">
+    <div class="row p-1 d-flex flex-column   align-items-center">
         <div class="col-lg-6 col-md-10 col-12 text-center m-auto ">
             <img src="../images/logo.png"  class="m-auto w-50 " alt="logo">
         </div>
-        <form class="bg-primary p-4  col-lg-6 col-md-10 col-12 ">
+        <form class="bg-primary p-z  col-lg-6 col-md-10 col-12 ">
             <div class="row d-flex justify-content-between ">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-12 col-sm-6">
                     <label for="prenom" class="form-label ">
                         Prénom
                     </label>
                     <input type="text" class="form-control" id="prenom" aria-describedby="emailHelp">
                 </div>
-                <div class="mb-3 col-6">
+                <div class="mb-3  col-12 col-sm-6">
                     <label for="nom" class="form-label">   
                     Nom
                     </label>
