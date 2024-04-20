@@ -78,6 +78,9 @@ body {
 }
 .card {
   width: 17.5rem;
+  @media (max-width:800px){
+     width: 95%;        
+  }
   cursor: pointer;
 
   ul {
@@ -144,6 +147,9 @@ body {
       &--number {
         font-size: 2rem;
         font-weight: 600;
+        @media (max-width:800px){
+               font-size: 1.2rem; 
+        }
 
         &:after {
           position: absolute;
