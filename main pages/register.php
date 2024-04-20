@@ -63,8 +63,8 @@
             </div>
             <div class=" form-check d-flex justify-content-between     align-items-center ">
                 <div class="mb-3 col-7">
-                    <input type="checkbox" class="form-checkbox-input"  id="terms">
-                    <label for="terms">J'accepte <a href="#" class="text-info">les termes et les conditions d'utulisations.</a></label>
+                    <input type="checkbox" class="form-checkbox-input  "  id="terms">
+                    <label for="terms">J'accepte <a href="#" class="text-info ">les termes et les conditions d'utulisations.</a></label>
                 </div>
                 <button type="submit" class="btn btn-secondary btn-lg mb-3 fw-bold fs-6 ">Créer compte</button>
             </div>
@@ -72,7 +72,7 @@
         </form>
     </div>
 </div>
-</body>
+<?php include_once("../components/footer.php") ?>
 <script src="../javascript/heroImageAlternator.js"></script>
 <script src="../javascript/subscriptionPlans.js"></script>
 <script src="../node_modules/bootstrap/js/index.esm.js"></script>

@@ -59,8 +59,7 @@
         </form>
     </div>
 </div>
-
-</body>
+<?php include_once("../components/footer.php") ?>
 <script src="../javascript/heroImageAlternator.js"></script>
 <script src="../javascript/subscriptionPlans.js"></script>
 <script src="../node_modules/bootstrap/js/index.esm.js"></script>
