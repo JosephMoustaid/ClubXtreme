@@ -41,7 +41,7 @@
             <li>2 Sports</li>
             <li>3 Jours par semaine</li>
             <li>Coaching</li>
-            <li>Journées d'événmenets suplimentaires</li>
+            <li>Journées d'événmenets suplémentaires</li>
           </ul>
         </div>
         <a href="#">get started now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -63,9 +63,9 @@
 
           <ul>
             <li>Accèes at tous les Sports</li>
-            <li>Tous les jours de semaine</li>
+            <li>Tous les jours de la semaine</li>
             <li>Coaching</li>
-            <li>Journées d'événmenets suplimentaires</li>
+            <li>Journées d'événmenets suplémentaires</li>
           </ul>
         </div>
         <a href="#">get started now <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">

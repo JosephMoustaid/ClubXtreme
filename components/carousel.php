@@ -1,152 +1,58 @@
-<section class="opinion-carousel">
-    <div id="wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-
-                    <h3 class="review-title text-center">Testimonials</h3>
-
-                    <div class="row">
-                        <div class="col-lg-12">
-
-                            <div class="row">
-                                <div class="col-md-12">
-
-                                    <div class="carousel slide hidden-sm hidden-xs" id="testiCarousel" data-ride="carousel">
-
-                                        <div class="carousel-inner">
-                                            <div class="item active">
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Oscar Owens</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Virginia Cortez</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Margaret Hayes</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Grace McGuire</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Louisa Moore</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div class="review-card review-card--option-1 text-center">
-                                                            <div class="review-card-img">&nbsp;</div>
-                                                            <div class="review-author">
-                                                                <span class="ra-author">Helena Baker</span>
-                                                                <ul class="ra-rating-star">
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE838;</i></li>
-                                                                    <li><i class="material-icons">&#xE839;</i></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="review-content">
-                                                                <p>Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <a class="left carousel-control" href="#testiCarousel" data-slide="prev"><i class="material-icons">&#xE5CB;</i></a>
-                                        <a class="right carousel-control" href="#testiCarousel" data-slide="next"><i class="material-icons">&#xE5CC;</i></a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-    </div>
+<section id="carousel-section" >
+<h1>Carousel</h1>
+    <div>
+      <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+          <img src="https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png" alt="left" />
+        </button>
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide current-slide">
+              <img
+                class="carousel__images"
+                src="https://images.pexels.com/photos/19682307/pexels-photo-19682307/free-photo-of-pink-flowers-on-a-shrub.jpeg"
+                alt="background-image"
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__images"
+                src="https://images.pexels.com/photos/17617625/pexels-photo-17617625/free-photo-of-pink-chrysanthemum-flowers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                alt="background-image"
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__images"
+                src="https://images.pexels.com/photos/17617625/pexels-photo-17617625/free-photo-of-pink-chrysanthemum-flowers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                alt="background-image"
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__images"
+                src="https://images.pexels.com/photos/19682307/pexels-photo-19682307/free-photo-of-pink-flowers-on-a-shrub.jpeg"
+                alt="background-image"
+              />
+            </li>
+            <li class="carousel__slide">
+              <img
+                class="carousel__images"
+                src="https://images.pexels.com/photos/19598202/pexels-photo-19598202/free-photo-of-pink-hyndrangea-flowers.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+                alt="background-image"
+              />
+            </li>
+          </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+          <img src="https://www.iconpacks.net/icons/2/free-arrow-left-icon-3099-thumb.png" alt="right" />
+        </button>
+        <div class="carousel__nav">
+          <button class="carousel__indicator current-slide"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+          <button class="carousel__indicator"></button>
+        </div>
+      </div>
 </section>
-<script>
-    $('#testiCarousel').carousel({
-        interval: false
-    });
-</script>
