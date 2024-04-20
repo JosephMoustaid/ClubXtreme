@@ -1,9 +1,9 @@
 <section id="subscription-plans">
   <h1>Nos prix</h1>
-  <span>Choisir le Pack qui vous correspond le plus</span>
+  <span>Choisir le Pack qui vous correspond le plus <i class="bi bi-arrow-down"></i></span>
 
   <div class="cards">
-    <div class="card card--purple">
+    <div class="card reveal card--purple">
       <div class="card__outer">
         <div class="card__inner">
           <span class="icon">
@@ -26,7 +26,7 @@
         </a>
       </div>
     </div>
-    <div class="card card--red active">
+    <div class="card reveal card--red active">
       <div class="card__outer">
         <div class="card__inner">
           <span class="icon">
@@ -50,7 +50,7 @@
         </a>
       </div>
     </div>
-    <div class="card card--green">
+    <div class="card reveal card--green">
       <div class="card__outer">
         <div class="card__inner">
           <span class="icon">
