@@ -23,18 +23,18 @@
 <body >
 <?php include("../components/nav.php") ?>
 <div class="container">
-        <h1 class="fs-1 fw-bold mt-5 text-center">A Propos de ClubXtreme</h1>
+        <h1 class="fs-1 fw-bold mt-5 text-center pb-5">A Propos de ClubXtreme</h1>
         <div class="row mt-5 m-auto ">
-            <div class="col-5 m-auto">
+            <div class="col-lg-5 col-md-6 col-12  m-auto">
                 <img src="../Images/pexels-victorfreitas-841130.jpg" class="w-100" alt="">
             </div>
-            <div class="col-5 m-auto">
+            <div class="col-lg-5 col-md-6 col-12 m-auto">
                 <h2 class="fw-bold fs-3">Notre mission</h2>
                 <p class="fs-6 mt-3">À ClubXtreme, notre mission est de promouvoir la passion pour le sport et de créer un environnement accueillant où chacun peut s'épanouir, se développer et s'engager dans une vie sportive saine et épanouissante. Nous croyons en l'importance du sport pour le bien-être physique, mental et social de nos membres, et nous nous engageons à offrir des programmes et des services de qualité pour répondre à leurs besoins.</p>
             </div>
         </div>
-        <div class="row mt-5 m-auto ">
-            <div class="col-5 m-auto">
+        <div class="row  m-auto mt-5 pt-5">
+            <div class="col-lg-5 col-md-6 col-12  m-auto">
                 <h2 class="fw-bold fs-3">Nos Valeurs</h2>
                 <p class="fs-6 mt-3">Chez ClubXtreme nous sommes guidés par des valeurs fondamentales qui définissent notre identité et notre façon de travailler. Nous croyons en :
                     <ul class="fw-normal ms-2">
@@ -45,23 +45,23 @@
                     </ul>
             </p>
             </div>
-            <div class="col-5 m-auto">
+            <div class="col-lg-5 col-md-6 col-12  m-auto">
                 <img src="../Images/pexels-julia-larson-6456180.jpg" class="w-100" alt="">
             </div>
         </div>
-        <div class="row mt-5 ">
+        <div class="row mt-5 pt-5">
             <h2 class="fs-2 text-center mb-5">Nos Entraineurs</h2>
-            <div class="col-3 m-auto trainers">
+            <div class="col-lg-3 col-md-6 col-12 m-auto trainers mt-5">
                 <img src="../Images/front-view-fit-man-posing-while-wearing-tank-top-with-crossed-arms.jpg" class="object-fit-cover w-100 " alt="">
                 <h3 class="text-center fw-bold mt-3 fs-5">Jack Reacher</h3>
                 <h4 class="text-center fw-light mt-3 fs-5">Coach de Karaté</h4>
             </div>
-            <div class="col-3 m-auto trainers">
+            <div class="col-lg-3 col-md-6 col-12 m-auto trainers mt-5">
                 <img src="../Images/pexels-shvetsa-4587383.jpg" class=" w-100 object-fit-cover " alt="">
                 <h3 class="text-center fw-bold mt-3 fs-5">Laura Priston</h3>
                 <h4 class="text-center fw-light mt-3 fs-5">Coach de Yoga</h4>
             </div>
-            <div class="col-3 m-auto trainers">
+            <div class="col-lg-3 col-md-6 col-12 m-auto trainers mt-5">
                 <img src="../Images/pexels-cottonbro-4754130.jpg" class="w-100 object-fit-cover " alt="">
                 <h3 class="text-center fw-bold mt-3 fs-5">Frank Castle</h3>
                 <h4 class="text-center fw-light mt-3 fs-5">Coach de Box</h4>

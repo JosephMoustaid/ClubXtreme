@@ -29,34 +29,36 @@
                 <p class="fs-6 fw-semibold ">Les commentaires de nos membres et sympathisants sont importants pour nous et nous nous engageons à maintenir les niveaux de service client les plus élevés possibles.</p>
                 <p class="fs-6 fw-normal">Pour nous aider à mieux communiquer avec vous, veuillez nous communiquer votre nom complet, votre numéro de téléphone, votre adresse e-mail et votre adresse postale chaque fois que vous nous contactez par e-mail ou par courrier. Capitalisez sur les fruits à portée de main.</p>
             </div>
-            <div class="col-lg-5 col-md-6 col-12 ">
+            <div class="col-lg-5 col-md-6 col-12 p-2">
                 <form >
                 <div class="mb-3 row m-auto ">
-                    <div class="col-5 m-auto">
+                    <div class="col-6 m-auto">
                         <label for="nom" class="form-label">Nom</label>
                         <input type="text" class="form-control" id="nom" >
                     </div>
-                    <div class="col-5 m-auto">
+                    <div class="col-6 m-auto">
                         <label for="prenom" class="form-label">Prenom</label>
                         <input type="text" class="form-control" id="prenom" >
                     </div>
                 </div>
                 <div class="mb-3 row  m-auto">
-                    <div class="col-5 m-auto">
+                    <div class="col-6 m-auto">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" >
                     </div>
-                    <div class="col-5 m-auto">
+                    <div class="col-6 m-auto">
                         <label for="telephone" class="form-label">Telephone</label>
                         <input type="text" class="form-control" id="telephone" >
                     </div>
                 </div>
                 <div class="row m-auto ">
-                    <label for="message " class="ms-4 mb-2">Message</label>
-                    <textarea  id="message"  class="col-10 border-0 p-2 m-auto" rows="5"></textarea>
+                    <label for="message " class=" mb-2">Message</label>
+                    <div class="m-auto col-12">
+                        <textarea  id="message"  class="w-100 border-0 p-2 " rows="5"></textarea>
+                    </div>
                 </div>
                 <div class="row m-auto mt-3 ">
-                    <button type="submit" class="btn-lg btn m-auto col-10 btn-secondary fw-bold">Envoyer</button>
+                    <button type="submit" class="btn-lg btn m-auto col-12 btn-secondary fw-bold">Envoyer</button>
                 </div>
                 </form>
             </div>
