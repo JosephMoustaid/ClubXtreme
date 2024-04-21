@@ -1,66 +1,55 @@
 <?php
-
 declare(strict_types=1);
-
 
 class PersonnelAdministratif extends Utilisateur
 {
+    private string $fonction;
+    private DateTime $dateEmbauche;
+    private float $salaire;
 
-    /** @var String */
-    private String $fonction;
-
-    /** @var Date */
-    private Date $dateEmbauche;
-
-    /** @var double */
-    private double $salaire;
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(string $nom, string $prenom, string $email, string $motDePasse, DateTime $dateDeNaissance, string $numDeTelephone, string $fonction, DateTime $dateEmbauche, float $salaire)
     {
-        // ...
+        parent::__construct($nom, $prenom, $email, $motDePasse, $dateDeNaissance, $numDeTelephone);
+        $this->fonction = $fonction;
+        $this->dateEmbauche = $dateEmbauche;
+        $this->salaire = $salaire;
     }
 
-    /**
-     * @param String $nouvelleFonction 
-     * @return void
-     */
-    public function modifierFonction(String $nouvelleFonction): void
+    // Getter methods
+    public function getFonction(): string
     {
-        // TODO implement here
-        return null;
+        return $this->fonction;
     }
 
-    /**
-     * @param [object Object] $membre 
-     * @return void
-     */
-    public function ajoutermembre([object Object] $membre): void
+    public function getDateEmbauche(): DateTime
+    {
+        return $this->dateEmbauche;
+    }
+
+    public function getSalaire(): float
+    {
+        return $this->salaire;
+    }
+
+    public function modifierFonction(string $nouvelleFonction): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param [object Object] $membre 
-     * @return void
-     */
-    public function supprimerMembre([object Object] $membre): void
+    public function ajouterMembre(Membre $membre): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Transaction $transaction 
-     * @return bool
-     */
-    public function EnregistrerTransaction(Transaction $transaction): bool
+    public function supprimerMembre(Membre $membre): void
+    {
+        // TODO implement here
+    }
+
+    public function enregistrerTransaction(Transaction $transaction): bool
     {
         // TODO implement here
         return false;
     }
-
 }
+?>

@@ -1,45 +1,38 @@
 <?php
-
 declare(strict_types=1);
-
 
 class Entraineur extends Utilisateur
 {
-
-    /** @var string */
     private string $specialite;
-
-    /** @var string */
     private string $niveauQualification;
 
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(string $nom, string $prenom, string $email, string $motDePasse, DateTime $dateDeNaissance, string $numDeTelephone, string $specialite, string $niveauQualification)
     {
-        // ...
+        parent::__construct($nom, $prenom, $email, $motDePasse, $dateDeNaissance, $numDeTelephone);
+        $this->specialite = $specialite;
+        $this->niveauQualification = $niveauQualification;
     }
 
-    /**
-     * @param Date $date 
-     * @param Heure $heure 
-     * @param string $lieu 
-     * @return void
-     */
-    public function planifierSceanceEntrainement(Date $date, Heure $heure, string $lieu): void
+    public function getSpecialite(): string
     {
-        // TODO implement here
-        return null;
+        return $this->specialite;
     }
 
-    /**
-     * @param [object Object] $membre 
-     * @return Evaluation
-     */
-    public function evaluerMembre([object Object] $membre): Evaluation
+    public function getNiveauQualification(): string // Corrected method name
     {
-        // TODO implement here
-        return null;
+        return $this->niveauQualification;
     }
 
+    public function planifierSeanceEntrainement(DateTime $date, string $lieu): void
+    {
+        // TODO: Implement method
+    }
+
+    public function evaluerMembre(Membre $membre): string
+    {
+        // TODO: Implement method
+        return "Evaluation";
+    }
 }
+?>
+

@@ -1,49 +1,51 @@
 <?php
-
 declare(strict_types=1);
-
 
 class SceanceEntrainement
 {
+    private DateTime $date;
+    private string $lieu;
+    private string $exercices ;
+    private Entraineur $entraineur;
 
-    /** @var Date */
-    private Date $date;
-
-    /** @var Heure */
-    private Heure $heure;
-
-    /** @var String */
-    private String $lieu;
-
-    /** @var List<Exercice> */
-    private List<Exercice> $exercices;
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(DateTime $date, string $lieu, Entraineur $entraineur, string $exercices)
     {
-        // ...
+        $this->date = $date;
+        $this->lieu = $lieu;
+        $this->entraineur = $entraineur;
+        $this->exercices = $exercices;
     }
 
-    /**
-     * @param Exercice $exercice 
-     * @return void
-     */
-    public function ajouterExercice(Exercice $exercice): void
+    // Getter methods
+    public function getDate(): DateTime
+    {
+        return $this->date;
+    }
+
+    public function getLieu(): string
+    {
+        return $this->lieu;
+    }
+
+    public function getExercices(): string
+    {
+        return $this->exercices;
+    }
+
+    public function getEntraineur(): Entraineur
+    {
+        return $this->entraineur;
+    }
+
+    public function ajouterExercice(string $exercice): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Exercice $exercice 
-     * @return void
-     */
-    public function supprimerExercice(Exercice $exercice): void
+    public function supprimerExercice(string $exercice): void
     {
         // TODO implement here
-        return null;
     }
-
 }
+?>
+

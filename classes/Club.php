@@ -1,92 +1,80 @@
 <?php
+declare(strict_types=1);
 
 declare(strict_types=1);
 
-
 class Club
 {
-
-    /** @var string */
     private string $nom;
-
-    /** @var string */
     public string $adresse;
+    private array $membres;
+    private array $evenements;
+    private array $entraineurs;
 
-    /** @var List<Membre> */
-    private List<Membre> $membres;
-
-    /** @var List<Evenement> */
-    private List<Evenement> $evenements;
-
-    /** @var List<Entraîneur> */
-    private List<Entraîneur> $entraineurs;
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(string $nom, string $adresse, array $membres = [], array $evenements = [], array $entraineurs = [])
     {
-        // ...
+        $this->nom = $nom;
+        $this->adresse = $adresse;
+        $this->membres = $membres;
+        $this->evenements = $evenements;
+        $this->entraineurs = $entraineurs;
     }
 
-    /**
-     * @param [object Object] $membre 
-     * @return void
-     */
-    public function ajouterMembre([object Object] $membre): void
+    // Getter methods
+    public function getNom(): string
+    {
+        return $this->nom;
+    }
+
+    public function getAdresse(): string
+    {
+        return $this->adresse;
+    }
+
+    public function getMembres(): array
+    {
+        return $this->membres;
+    }
+
+    public function getEvenements(): array
+    {
+        return $this->evenements;
+    }
+
+    public function getEntraineurs(): array
+    {
+        return $this->entraineurs;
+    }
+
+    public function ajouterMembre(Membre $membre): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param [object Object] $membre 
-     * @return void
-     */
-    public function supprimerMembre([object Object] $membre): void
+    public function supprimerMembre(Membre $membre): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function ajouterEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function supprimerEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Entraîneur $entraineur 
-     * @return void
-     */
-    public function ajouterEntraîneur(Entraîneur $entraineur): void
+    public function ajouterEntraîneur(Entraineur $entraineur): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Entraîneur $entraineur 
-     * @return void
-     */
-    public function supprimerEntraîneur(Entraîneur $entraineur): void
+    public function supprimerEntraîneur(Entraineur $entraineur): void
     {
         // TODO implement here
-        return null;
     }
-
 }
+
+?>

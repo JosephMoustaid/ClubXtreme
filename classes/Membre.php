@@ -5,23 +5,14 @@ declare(strict_types=1);
 
 class Membre extends Utilisateur
 {
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(string $nom, string $prenom, string $email, string $motDePasse, DateTime $dateDeNaissance, string $numDeTelephone)
     {
-        // ...
+        parent::__construct($nom, $prenom, $email, $motDePasse, $dateDeNaissance, $numDeTelephone);
     }
-
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function participerEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
+        return ;
     }
 
     /**
@@ -31,16 +22,16 @@ class Membre extends Utilisateur
     public function annulerParticipationEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
+        return ;
     }
 
     /**
      * @return Evaluation
      */
-    public function evaluerProgression(): Evaluation
+    public function evaluerProgression(): string
     {
         // TODO implement here
-        return null;
+        return "Evaluation";
     }
 
 }
