@@ -1,67 +1,36 @@
 <?php
-
 declare(strict_types=1);
-
 
 class Admin extends PersonnelAdministratif
 {
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(string $nom, string $prenom, string $email, string $motDePasse, DateTime $dateDeNaissance, string $numDeTelephone, string $fonction, DateTime $dateEmbauche, float $salaire)
     {
-        // ...
+        parent::__construct($nom, $prenom, $email, $motDePasse, $dateDeNaissance, $numDeTelephone, $fonction, $dateEmbauche, $salaire);
     }
 
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function ajouterEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function supprimerEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param Evenement $evenement 
-     * @return void
-     */
     public function modifierEvenement(Evenement $evenement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param [object Object] $entraineur 
-     * @return void
-     */
-    public function ajouterEntraineur([object Object] $entraineur): void
+    public function ajouterEntraineur(Entraineur $entraineur): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param [object Object] $entraineur 
-     * @return void
-     */
-    public function supprimerEntraineur([object Object] $entraineur): void
+    public function supprimerEntraineur(Entraineur $entraineur): void
     {
         // TODO implement here
-        return null;
     }
-
 }
+?>

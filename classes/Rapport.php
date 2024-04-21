@@ -1,49 +1,49 @@
 <?php
-
 declare(strict_types=1);
-
 
 class Rapport
 {
-
-    /** @var Date */
-    private Date $date;
-
-    /** @var string */
+    private DateTime $date;
     private string $contenu;
-
-    /** @var [object Object] */
     private Utilisateur $auteur;
+    private array $destinataire = array();
 
-    /** @var List<Utilisateur> */
-    private List<Utilisateur> $destinataire;
-
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(DateTime $date, string $contenu, Utilisateur $auteur)
     {
-        // ...
+        $this->date = $date;
+        $this->contenu = $contenu;
+        $this->auteur = $auteur;
     }
 
-    /**
-     * @param [object Object] $destinataire 
-     * @return void
-     */
-    public function ajouterDestinataire([object Object] $destinataire): void
+    // Getter methods
+    public function getDate(): DateTime
+    {
+        return $this->date;
+    }
+
+    public function getContenu(): string
+    {
+        return $this->contenu;
+    }
+
+    public function getAuteur(): Utilisateur
+    {
+        return $this->auteur;
+    }
+
+    public function getDestinataire(): array
+    {
+        return $this->destinataire;
+    }
+
+    public function ajouterDestinataire(Utilisateur $destinataire): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @param [object Object] $destinataire 
-     * @return void
-     */
-    public function supprimerDestinataire([object Object] $destinataire): void
+    public function supprimerDestinataire(Utilisateur $destinataire): void
     {
         // TODO implement here
-        return null;
     }
-
 }
+?>

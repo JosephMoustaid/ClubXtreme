@@ -1,57 +1,71 @@
 <?php
-
 declare(strict_types=1);
-
 
 class Transaction
 {
-
-    /** @var int */
     private int $id;
-
-    /** @var float */
     private float $montant;
-
-    public  $Attribute2;
-
-    /** @var Date */
-    private Date $date;
-
-    /** @var string */
+    public Membre $membre;
+    private DateTime $date;
     private string $methode;
-
-    /** @var string */
     private string $statut;
-
-    /** @var string */
     public string $type;
 
-    /**
-     * Default constructor
-     */
-    public function __construct()
+    public function __construct(int $id, float $montant, Membre $membre ,DateTime $date, string $methode, string $statut, string $type)
     {
-        // ...
+        $this->id = $id;
+        $this->montant = $montant;
+        $this->membre =  $membre;
+        $this->date = $date;
+        $this->methode = $methode;
+        $this->statut = $statut;
+        $this->type = $type;
     }
 
-    /**
-     * @param double $montant 
-     * @param String $methodePaiement 
-     * @return void
-     */
-    public function effectuerPaiememnt(double $montant, String $methodePaiement): void
+    // Getter methods
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+    public function getMontant(): float
+    {
+        return $this->montant;
+    }
+
+    public function getDate(): DateTime
+    {
+        return $this->date;
+    }
+
+    public function getMethode(): string
+    {
+        return $this->methode;
+    }
+
+    public function getMembre(): Membre
+    {
+        return $this->membre;
+    }
+
+    public function getStatut(): string
+    {
+        return $this->statut;
+    }
+
+    public function getType(): string
+    {
+        return $this->type;
+    }
+
+    public function effectuerPaiememnt(float $montant, string $methodePaiement): void
     {
         // TODO implement here
-        return null;
     }
 
-    /**
-     * @return void
-     */
     public function annulerPaiement(): void
     {
         // TODO implement here
-        return null;
     }
-
 }
+?>
